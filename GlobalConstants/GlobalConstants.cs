@@ -12,6 +12,7 @@
         public const decimal GoldInitialDiscountRate = 2;
         public const decimal GoldMaxDiscountRate = 10;
         public const decimal GoldCardDiscountGrowth = 1;
+        public const decimal GoldMinTurn = 1;
 
         public const int HundredDollarsTurnOver = 100;
         public const int ThreeHundredDollarsTurnOver = 300;

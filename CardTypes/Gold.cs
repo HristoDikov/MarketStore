@@ -17,7 +17,7 @@
         {
             decimal initialDiscountRate = GlobalConstants.GoldInitialDiscountRate; // = 2
 
-            while (turnOver > 99)
+            while (turnOver >= GlobalConstants.HundredDollarsTurnOver) // = 100
             {
                 initialDiscountRate += GlobalConstants.GoldCardDiscountGrowth; // = 1
                 turnOver -= GlobalConstants.HundredDollarsTurnOver; // = 100

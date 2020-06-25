@@ -4,9 +4,13 @@ namespace MarketStore
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            PaymentBureau bureau = new PaymentBureau();
+
+            bureau.SetCard("Gold", 1500, 1300);
+
+            Console.WriteLine(bureau.PaymentInfo());
         }
     }
 }
